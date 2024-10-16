@@ -1,70 +1,41 @@
-# Tag 1 des Praktikumsberichts
 
-## Einrichtung der MacBooks
-- Grundlegende Einstellungen vornehmen (Sprache, Benutzerkonto, Internetverbindung).
-- Software-Updates installieren.
-- Wichtige Anwendungen (z.B. Browser, Office) installieren.
+# Zoommetting mit Team-I (Netzwerktechnik)
 
-## Einrichtung von Mattermost
-- Registrierung und Login-Prozess.
-- Einladung in Teams und Kanäle.
-- Benutzerprofile anpassen.
+## Team-I Dinestplaung 9.30 - 9.45
+- Was haben wir letzte Woche gemacht
+- Was machen wir diese Woche
+- Wer macht welchen Dienst wer kümmert sich um was im Bereich Netzwerk
 
-## Fehlerbehebung in Mattermost
-- Lizenz wechseln: Schritte zur Änderung der Lizenzdokumentation.
-- Unterstützung bei häufigen Fehlern (z.B. Anmeldeprobleme).
+## Team-I Wochenplannung
 
-## Grundbefehle des Mac Terminals
-- `ls`: Auflisten von Dateien und Verzeichnissen.
-- `cd`: Verzeichnis wechseln.
-- `mkdir`: Neues Verzeichnis erstellen.
-- `rm`: Dateien oder Verzeichnisse löschen.
+- Zoommetting mit Team i (Netzwerktechnik)
+- Tickets aufarbeiten
+- Tickets Priorisieren
+- Menge der Tickets aufteilen
+- Wie die letzte Woche war wo es verbesserungspotetioan gibt
 
-## Docker kennenlernen
-- Grundlagen von Containern und Images verstehen.
-- Docker-Installation und grundlegende Befehle (z.B. `docker run`, `docker ps`).
+## Wartungsplannung Strom 11.30 - 12.30
 
-## Webseite mit Docker-Container (Debian) erstellen
-- Docker-Image für Debian erstellen.
-- Webserver (z.B. Apache oder Nginx) einrichten.
-- Testen der Webseite im Container.
+- Wie soll die Wartung durchgefüht werden von Server DUS2/DUS4
+- Verbesserungspotenzinal
+- Diskusionen
 
-## Live Meeting (Retrospektive)
-- Reflexion über vergangene Projekte.
-- Erfolge und Herausforderungen diskutieren.
-- Verbesserungsvorschläge sammeln.
+## Thema Virtualbox und docker
+- Vervollständigen der Themen Docker Container
+- Wie setze ich einen eigenen Local Server auf
+- Mit Hetzner Severn oder ohne
+- Mit der hife von Paper/Nextcloud...
 
-## Lernen des Ticketsystems
-- Vorteile des Ticketsystems: 
-  - Übersichtlichkeit
-  - Arbeitsteilung
-  - Nachverfolgbarkeit von Aufgaben
-- Nutzung des Systems zur Priorisierung und Planung.
+## Infrastruktur Weekly 15.30 - 16.30
 
+- Allgemine Infrakstraktur
+- Erkärung für Mitarbeiter im Bereich E-Mail aufbau
+- Wie Funktoniert der Email Server den sie benutzen
+- Was könnte man Verbessern
+- Technische erklärung durch einen Mitarbeiter der tief verwickelt ist
 
-```Bash 
-# Schritt 1: Finde mehr über den Container heraus
-# Zeige die IP-Adresse des Containers an.
-# Ersetze <container_name> durch den tatsächlichen Namen oder die ID deines Containers.
-docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' <container_name>
-
-# Schritt 2: Zeige die Logs des Containers an
-# Um die Logs eines Containers anzuzeigen, benutze den folgenden Befehl:
-docker logs <container_name>
-
-# Schritt 3: Zeige die Portweiterleitungen des Containers an
-# Um die Portweiterleitungen anzuzeigen, kannst du ebenfalls `docker inspect` verwenden:
-docker inspect -f '{{.HostConfig.PortBindings}}' <container_name>
-
-# Schritt 4: Starte den Nginx-Container detached mit einer Portweiterleitung
-# Hier ist ein Beispiel, wie du den Nginx-Container auf Port 8080 (oder einem anderen freien Port) starten kannst:
-docker run -d --name <container_name> -p 8080:80 nginx
-
-# Schritt 5: Öffne die Nginx-Standard-Website im Browser
-# Jetzt kannst du deinen Browser öffnen und zu folgendem Link navigieren:
-# Ersetze <PORT> mit dem von dir gewählten Port (hier 8080):
-# http://localhost:8080
-
-# Schritt 6: Prüfe die Nginx-Standard-Website
-# Du solltest die Standard-Nginx-Website sehen, die anzeigt, dass der Server erfolgreich läuft.
-```
+## Persöhnliche Beprechung 16.30 - 17.00
+- Wozu ein Microbit...
+- Wozu ein Resbery PI
+- Welchen könnte ich mir holen für den anfang
+- Mitarbeiter erfahrung eines eingenen mini Servers (Local)
