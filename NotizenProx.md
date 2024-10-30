@@ -46,7 +46,7 @@ Traefik ist ein modernes Open-Source-Reverse-Proxy und Load-Balancer für Micros
 
 ---
 
-## 3. Docker Commit
+## 3. Docker
 
 **Beschreibung:**  
 Der `docker commit`-Befehl wird verwendet, um Änderungen an einem laufenden Container in ein neues Docker-Image zu speichern. Dies ist nützlich, wenn ein Container manuell angepasst wurde und diese Anpassungen in einem Image gespeichert werden sollen.
