@@ -7,7 +7,7 @@
     * **Was bewirkt das?**
       - Das Forwarding auf die Google DNS-Server (`8.8.8.8` und `8.8.4.4`) ermöglicht es deinem DNS-Server, Anfragen für nicht lokal vorhandene Einträge an diese externen DNS-Server weiterzuleiten.
 
-    * Lokales Auflösen von externen Einträgen `host heise.de 127.0.0.1`
+    * Lokales Auflösen von externen Einträgen `host heise.de 127.0.0.1` jxv
     * Von deinem MacBook: wie kannst du den DNS-Server erreichen? 
         * **Stichwort: Netzwerkinterface-Konfiguration in VirtualBox**
           - Du musst sicherstellen, dass die Netzwerkkonfiguration deiner VM in VirtualBox so eingestellt ist, dass sie im gleichen Netzwerk wie dein MacBook ist (z.B. NAT oder Bridged Adapter).

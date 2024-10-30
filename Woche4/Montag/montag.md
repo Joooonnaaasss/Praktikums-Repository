@@ -29,3 +29,4 @@ Parallel zur Traefik-Konfiguration wurde Redlib als zusätzlicher Service im Doc
   COPY redlib /Users/jmann/Desktop/redlib-docker/redlib
   RUN chmod +x /Users/jmann/Desktop/redlib-docker/redlib
   ENTRYPOINT ["/Users/jmann/Desktop/redlib-docker/redlib"]
+ 
